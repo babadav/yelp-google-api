@@ -1,0 +1,116 @@
+html, body{
+	width:100%;
+	height: 100%;
+    background-color: RGBA(33, 30, 31, 1.00);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.map-wrap{
+    width: 90%;
+    height: 50%;
+    margin: 0 auto;
+    margin-top: 5%;
+}
+.map-wrap #map{
+    width: 100%;
+    height: 100%;
+}
+.input-1 , .input-2{
+    position: relative;
+    width: 300px;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 20px;
+    background-color: RGBA(79, 76, 77, 1.00);
+    color: white;
+}
+
+.input-container{
+	display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: RGBA(33, 30, 31, 1.00);
+}
+
+button{
+	width: 200px;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: RGBA(51, 103, 153, 1.00);
+    color: white;
+}
+
+
+/*
+.gm-style-iw{
+
+	background-color:blue;
+	
+}
+
+*/
+
+/* .gm-style-iw{
+    background-color: blue;
+    padding-top: 2%;
+    padding-left: 3%;
+    padding-right: 3%;
+} */
+
+.instructions p{
+    color: white;
+    text-align: center;
+    font-size: 1.7rem;
+    padding: 2%;
+    margin-top: 5%;
+    line-height: 1.4;
+}
+
+@media screen and (max-width: 768px) {
+
+    .input-container{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .input-container input{
+        margin-bottom: 30px;
+    }
+
+    form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .input-container input{
+        margin-bottom: 5%;
+    }
+
+}
+
+
+/* @media screen and (max-width: 768px) {
+     .input-container{
+        display: flex;
+        flex-direction: row;  
+    }
+   {
+        margin: unset;
+    }
+
+} */
+
+
+
+
+
+
